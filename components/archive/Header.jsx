@@ -11,14 +11,14 @@ export default function (props) {
 			<Logo label="go north" />
 			<Logo label="contact" />
 			<Logo label="right" />
-			<Image src={Topo} alt="topography map" className="absolute" />
+			<Image src={Topo} alt="topography map" className="absolute opacity-75" />
 		</header>
 	);
 }
 
 function Logo(props) {
 	return (
-		<span className="relative uppercase flex items-center gap-1 z-10 font-medium">
+		<span className="relative uppercase flex items-center gap-1 z-10 font-semibold tracking-wider">
 			<ArrowUpRightIcon />
 			{props.label}
 			<Circle weight="fill" className="absolute top-0 right-0 translate-x-full w-2 h-2" />

@@ -8,7 +8,7 @@ export default function (props) {
 		<div className="relative w-full flex items-center gap-16 my-12 overflow-hidden">
 			<Profile_Ashish />
 			<Profile_Anurag />
-			{/*<Arrow />*/}
+			<Arrow />
 		</div>
 	);
 }
@@ -31,8 +31,8 @@ function Profile_Ashish(props) {
 					alt="Portrait of Ashish."
 					className="w-full object-cover aspect-square"
 				/>
-				<div className="h-full aspect-square rounded-full bg-maroon absolute left-0 -translate-x-1/2 top-0 blur-3xl mix-blend-soft-light opacity-50" />
-				<div className="h-full aspect-square rounded-full bg-light_blue absolute right-0 translate-x-1/2 top-0 blur-3xl mix-blend-soft-light opacity-50" />
+				{/*<div className="h-full aspect-square rounded-full bg-maroon absolute left-0 -translate-x-1/2 top-0 blur-3xl mix-blend-soft-light opacity-35" />*/}
+				<div className="h-full aspect-square rounded-full bg-light_blue absolute left-0 -translate-x-1/2 top-0 blur-3xl mix-blend-soft-light opacity-25" />
 			</div>
 		</div>
 	);
@@ -56,8 +56,8 @@ function Profile_Anurag(props) {
 					alt="Portrait of Ashish."
 					className="w-full object-cover aspect-square"
 				/>
-				<div className="h-full aspect-square rounded-full bg-light_blue absolute left-0 -translate-x-1/2 top-0 blur-3xl mix-blend-soft-light opacity-50" />
-				<div className="h-full aspect-square rounded-full bg-maroon absolute right-0 translate-x-1/2 top-0 blur-3xl mix-blend-soft-light opacity-50" />
+				<div className="h-full aspect-square rounded-full bg-light_blue absolute right-0 translate-x-1/2 top-0 blur-3xl mix-blend-soft-light opacity-25" />
+				{/*<div className="h-full aspect-square rounded-full bg-maroon absolute right-0 translate-x-1/2 top-0 blur-3xl mix-blend-soft-light opacity-35" />*/}
 			</div>
 		</div>
 	);

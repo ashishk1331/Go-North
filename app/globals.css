@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 body {
-	@apply bg-maroon
+	@apply bg-gradient-to-b
 }
 
 svg{
-	@apply w-4 h-4 fill-light_blue
+	@apply w-4 h-4 fill-voilet
+}
+
+.marked {
+	@apply italic font-extralight text-light-pink
 }
