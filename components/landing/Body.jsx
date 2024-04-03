@@ -14,6 +14,7 @@ export default function (props) {
 						className="absolute top-0 right-0 translate-x-full w-2 h-2 animate-pulse"
 					/>
 				</span>
+				<span className="z-10 ml-2">An India based design agency.</span>
 			</div>
 			<A />
 		</div>
