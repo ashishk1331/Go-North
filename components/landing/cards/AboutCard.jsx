@@ -88,7 +88,7 @@ export default function AboutBox() {
 					{PROFILES.map((person, index) => (
 						<div
 							key={index}
-							className="grid sm:flex sm:items-center gap-y-3 gap-x-4"
+							className="grid grid-cols-2 lg:grid-cols-1 sm:flex sm:items-center gap-y-3 lg:gap-x-4"
 						>
 							<Image
 								className="rounded-lg w-20 aspect-square"
