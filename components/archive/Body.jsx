@@ -1,11 +1,11 @@
 import Ashish from "/public/ashish.jpg";
-import Anurag from "/public/anurag.png";
+import Anurag from "/public/anurag.jpg";
 import { Circle } from "@phosphor-icons/react/dist/ssr";
 import Image from "next/image";
 
 export default function (props) {
 	return (
-		<div className="relative w-full flex items-center gap-16 my-12 overflow-hidden">
+		<div className="relative flex items-center gap-16 my-12 overflow-hidden">
 			<Profile_Ashish />
 			<Profile_Anurag />
 			<Arrow />
@@ -31,7 +31,6 @@ function Profile_Ashish(props) {
 					alt="Portrait of Ashish."
 					className="w-full object-cover aspect-square"
 				/>
-				{/*<div className="h-full aspect-square rounded-full bg-maroon absolute left-0 -translate-x-1/2 top-0 blur-3xl mix-blend-soft-light opacity-35" />*/}
 				<div className="h-full aspect-square rounded-full bg-light_blue absolute left-0 -translate-x-1/2 top-0 blur-3xl mix-blend-soft-light opacity-25" />
 			</div>
 		</div>
